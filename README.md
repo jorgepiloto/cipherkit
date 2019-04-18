@@ -14,9 +14,7 @@ Once the package is complete and first versions start releasing, some future
 implementation would be:
 
 - Work with .txt files
-- Enigma machine
 - Steganography algorithms
-- Steganalysis techniques
 - Modern non-symmetric ciphers
 
 
