@@ -29,7 +29,7 @@ setup(
     license='MIT license',
     description='A Python package holding classical ciphers and different cryptanalysis tools',
     long_description='%s\n%s' % (
-        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
+        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.md')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
     author='Jorge Martínez',
