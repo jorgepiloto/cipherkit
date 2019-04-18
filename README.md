@@ -1,6 +1,6 @@
 # Cipherkit: classical and modern ciphers with cryptanalysis tools
 
-<img align="left" src="docs/img/logo.png">
+<img align="left" src="docs/img/logo_cipherkit.png">
 
 A Python package holding classical ciphers and different cryptanalysis tools.
 For the moment, this package is under heavy development. Some of the features
