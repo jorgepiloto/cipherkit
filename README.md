@@ -1,4 +1,4 @@
-# Cipherkit: classical and modern ciphers with cryptanalysis tools
+# Cipherkit: a cryptography toolbox made with Python
 
 <img align="left" src="docs/img/logo_cipherkit.png">
 
