@@ -1,27 +1,6 @@
-=========
-cipherkit
-=========
+# Cipherkit: classical and modern ciphers with cryptanalysis tools
 
-|made-with-python|
-|docs|
-|travis|
-|Open Source Love|
-
-
-.. |made-with-python| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
-    :target: https://www.python.org/
-
-.. |docs| image:: https://readthedocs.org/projects/cipherkit/badge/?style=flat
-    :target: https://readthedocs.org/projects/cipherkit
-    :alt: Documentation Status
-
-.. |travis| image:: https://travis-ci.org/jorgepiloto/cipherkit.svg?branch=master
-    :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/jorgepiloto/cipherkit
-
-.. |Open Source Love| image:: https://badges.frapsoft.com/os/v1/open-source.png?v=103
-    :target: https://github.com/ellerbrock/open-source-badges/
-
+<img align="left" src="docs/img/logo.png">
 
 A Python package holding classical ciphers and different cryptanalysis tools.
 For the moment, this package is under heavy development. Some of the features
@@ -41,8 +20,7 @@ implementation would be:
 - Modern non-symmetric ciphers
 
 
-Why cryptography?
-===========================
+## Why cryptography?
 
 Criptography is one of the most used sciencies today due to its strong relation
 with cryptocurrencies, money transactions, online business and others. Most of
@@ -58,8 +36,7 @@ Although classical ciphers are just obsolete in termns of security, this package
 objective is just to have fun with their implementation in a beautiful
 programming language.
 
-Books and sources about cryptography
-====================================
+## Books and sources about cryptography
 
 There exist really good books on cryptography history, algorithms and
 cryptanalysis techniques. Some of them, which were used consulted during
@@ -71,22 +48,20 @@ the coding phase of this package ares listed down:
 - Cripgrafía sin secretos con Python, David Arboledas
 
 
-Installation
-============
+## Installation
 
-.. code-block::
+```bash
+pip install cipherkit
+```
 
-    pip install cipherkit
 
-Documentation
-=============
 
+## Documentation
 
 https://cipherkit.readthedocs.io/
 
 
-Development
-===========
+## Development
 
 Bug solving, new features and improves are always welcome. This is an opensource
 project: we want to have fun, learn and improve. For that reason if you have
