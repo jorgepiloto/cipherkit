@@ -1,5 +1,6 @@
 """ This script holds different alphabets. """
 
+
 def spanish():
     """ Returns the 27 character spanish alphabet.
 
@@ -13,6 +14,7 @@ def spanish():
     """
 
     return "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
+
 
 def english():
     """ Returns the 26 character english alphabet.
@@ -28,6 +30,7 @@ def english():
 
     return "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+
 def decimal():
     """ Returns the 10 character decimal alphabet.
 
@@ -42,6 +45,7 @@ def decimal():
 
     return "0123456789"
 
+
 def ascii_basic():
     r""" Returns the 127 character ASCII alphabet.
 
@@ -54,4 +58,4 @@ def ascii_basic():
     ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~'
     """
 
-    return " !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+    return " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"

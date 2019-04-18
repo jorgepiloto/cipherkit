@@ -1,4 +1,3 @@
-
 from cipherkit.cli import main
 
 
