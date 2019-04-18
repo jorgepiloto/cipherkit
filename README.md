@@ -18,6 +18,11 @@ implementation would be:
 - Modern non-symmetric ciphers
 
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Documentation Status](https://readthedocs.org/projects/cipherkit/badge/?version=latest)](https://cipherkit.readthedocs.io/en/latest/?badge=latest)
+[![Build Status](https://travis-ci.org/jorgepiloto/cipherkit.svg?branch=master)](https://travis-ci.org/jorgepiloto/cipherkit)
+
+
 ## Why cryptography?
 
 Criptography is one of the most used sciencies today due to its strong relation
