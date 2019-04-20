@@ -25,7 +25,7 @@ implementation would be:
 
 ## Why cryptography?
 
-Criptography is one of the most used sciencies today due to its strong relation
+Cryptography is one of the most used sciencies today due to its strong relation
 with cryptocurrencies, money transactions, online business and others. Most of
 moder ciphers try to solve the key-exchange problem by using a public/private
 keys.
