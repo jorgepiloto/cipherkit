@@ -1,9 +1,7 @@
 """ This script holds caesar cipher and it main routines. """
 
-from cipherkit.alphabets import english
 
-
-def caesar(plain_text, key, alphabet, mode='cipher'):
+def caesar(plain_text, key, alphabet, mode="cipher"):
     """ Cipher by making use of caesar algorithm.
 
     Parameters
@@ -32,7 +30,7 @@ def caesar(plain_text, key, alphabet, mode='cipher'):
             # This means we can cipher that letter
             pos = alphabet.index(character)
 
-            if mode == 'cipher':
+            if mode == "cipher":
                 pos = (pos + key) % len(alphabet)
             else:
                 pos = (pos - key) % len(alphabet)

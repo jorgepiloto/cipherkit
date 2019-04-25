@@ -29,7 +29,7 @@ class Reverse(object):
         text: str
             Text to be ciphered. """
 
-        hidden_text =  reverse(plain_text)
+        hidden_text = reverse(plain_text)
         return cls(plain_text, hidden_text).hidden_text
 
     @classmethod
@@ -44,6 +44,7 @@ class Reverse(object):
 
         plain_text = reverse(hidden_text)
         return cls(plain_text, hidden_text).plain_text
+
 
 class Caesar(object):
     """ This is the class for Caesar cipher. """
@@ -78,7 +79,7 @@ class Caesar(object):
             String that contains all the characters of the language.
         """
 
-        hidden_text = caesar(plain_text, key, alphabet, mode='cipher')
+        hidden_text = caesar(plain_text, key, alphabet, mode="cipher")
 
         return cls(plain_text, hidden_text, key, alphabet).hidden_text
 
@@ -95,6 +96,6 @@ class Caesar(object):
         alphabet: str
             String that contains all the characters of the language.
         """
-        plain_text = caesar(hidden_text, key, alphabet, mode='decipher')
+        plain_text = caesar(hidden_text, key, alphabet, mode="decipher")
 
         return cls(plain_text, hidden_text, key, alphabet).plain_text
