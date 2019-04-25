@@ -1,7 +1,6 @@
 from cipherkit.alphabets import ascii_basic
-
-from cipherkit.core.reverse import reverse
 from cipherkit.core.caesar import caesar
+from cipherkit.core.reverse import reverse
 
 
 class Reverse(object):

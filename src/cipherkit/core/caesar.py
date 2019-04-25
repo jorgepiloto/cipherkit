@@ -2,6 +2,7 @@
 
 from cipherkit.alphabets import english
 
+
 def caesar(plain_text, key, alphabet, mode='cipher'):
     """ Cipher by making use of caesar algorithm.
 
@@ -41,4 +42,3 @@ def caesar(plain_text, key, alphabet, mode='cipher'):
             hidden_text += character
 
     return hidden_text
-
